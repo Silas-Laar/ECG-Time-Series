@@ -1,2 +1,2 @@
 # ECG-Time-Series-Anomaly-Detection-using-LSTM
-Built an LSTM autoencoder trained on normal ECG time series to learn and reconstruct healthy patterns. Used reconstruction loss as an anomaly detection metric to ide
+Developed an LSTM autoencoder for unsupervised anomaly detection in ECG time-series data, learning normal cardiac patterns through reconstruction-error analysis using the ECG5000 dataset. Achieved 97.9% classification accuracy (284/290) with near-perfect discrimination (ROC-AUC ≈ 1.00), demonstrating the potential of reconstruction-based deep learning for automated ECG abnormality detection.
